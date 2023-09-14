@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Sanchez&display=swap');
+
+html {
+    --primary: #eb599b;
+    --secondary: #151c30;
+}
+
+body {
+    background-color: var(--secondary);
+    color: var(--primary);
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 62.5%;
+    text-align: center;
+}
+
+button {
+    background-color: var(--secondary);
+    border: 3px var(--primary) solid;
+    border-radius: 0.5rem;
+    color: var(--primary);
+    cursor: pointer;
+    font-family: Sanchez, Rockwell, 'Rockwell Nova', 'Roboto Slab', 'DejaVu Serif', 'Sitka Small', serif;
+    font-size: 2rem;
+    margin-top: 1rem;
+    padding: 1rem 1.5rem;
+    text-transform: uppercase;
+    transition: color 250ms;
+}
+
+button:hover {
+    color: white;
+}
+
+code {
+    background: var(--primary);
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
+code a {
+    color: var(--secondary);
+}
+
+code a:hover {
+    color: white;
+    transition: color 200ms;
+}
+
+footer {
+    margin-top: 3rem;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+header {
+    border-bottom: 3px solid var(--primary);
+    margin: 4rem 0;
+}
+
+h1, h2 {
+    font-family: 'Sanchez', 'Rockwell', 'Rockwell Nova', 'Roboto Slab', 'DejaVu Serif', 'Sitka Small', serif;
+    line-height: 1;
+    margin: 1rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+@media only screen and (min-width: 414px) {
+    button {
+        font-size: 3rem;
+    }
+
+    footer p {
+        font-size: 1.5rem;
+    }
+
+    h1 {
+        font-size: 6rem;
+    }
+
+    h2 {
+        font-size: 4rem;
+    }
+}
